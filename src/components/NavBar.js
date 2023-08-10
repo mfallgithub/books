@@ -1,13 +1,16 @@
-import React from 'react'
+import React from "react";
 
 const NavBar = () => {
   return (
     <header>
-        <div>
-            
-        </div>
+      <div className="d-flex flex-colum flex-md-row p-3 border-bottom bg-secondary text-white">
+        <h4 className="mr-md-auto">
+          <a href="/" className="text-decoration-none text-white">BOOKS</a>
+        </h4>
+      </div>
+      {/* Menu*/}
     </header>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;
